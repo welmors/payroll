@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	background-color: gray;
+	position: relative;
+	height: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.jumbotron {
+	line-height: 15em;
+	width: 90%;
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	margin: auto;
+	border-radius: 5px;
+	border: 3px solid pink;
+}
+
+.jumbotron h1 {
+	padding: 0px;
+	margin: auto;
+	font-size: 70px;
+}
+
+.jumbotron p {
+	padding: 0px;
+	margin: auto;
+	font-size: 20px;
+}
+
+#main-header {
+	background-color: white;
+	color: black;
+}
+
+#navbar {
+	padding: 20px;
+}
+
+#navbar ul{
+	padding: 20px;
+  	margin: auto;
+ 	font-weight: bold;
+  	color: pink;
+  	text-align: center;
+  	background-color: black;
+ 	border: 1px solid #d5d5d5;
+ 	border-radius: 5px;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: pink;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: auto;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+#navbar a:hover {
+	background-color: white;
+	background-image: none;
+}
+
+#employee-form {
+	padding: 10px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+#deduction-form {
+	text-align: center;
+	padding: 20px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+#salary-form {
+	padding: 10px;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 5px;
+}
+
+#add-button {
+	margin: auto;
+	background-color: black;
+	color: pink;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+#account-button {
+	margin: auto;
+	background-color: black;
+	color: pink;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#delete-button {
+	margin: auto;
+	background-color: black;
+	color: pink;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#update-button {
+	margin: auto;
+	background-color: black;
+	color: pink;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.button-holder {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#my-table {
+	border-collapse: collapse;
+  	width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+	background-color: gray;
+  	height: 50px;
+}
+
+td {
+	padding-left: 0px;
+}
+
+label {
+	color: black;
+	text-decoration: none;
+}
+
+#search-bar {
+	border-color: gray;
+	border-radius: 5px;
+	font-size: 17px;
+	margin: auto;
+	float: right;
+}

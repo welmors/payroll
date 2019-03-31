@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="css/view_account.css">
+	
+</head>
+<body>
+
+	<header id="main-header">
+    	<div class="container">
+      		<h1><b><a href="index.html">Payroll Management System</a></b></h1>
+    	</div>
+  	</header>
+	
+	<div class="container">
+	    <nav id="navbar">
+	      <ul>
+	        <li><a href="home_employee.html">Employee</a></li>
+	        <li><a href="home_deductions.html">Deduction/s</a></li>
+	        <li><a href="home_salary.html">Income</a></li>
+	        <li><a href="contact_form.html">Contact us</a></li>
+	      </ul>
+	    </nav>
+	</div><br>
+
+
+	<form action="home_employee.html">
+
+		<h1 id="form-h1">Ruel Morri</h1>
+	
+		<label>Deductions:</label>
+			<select>
+				<option>PhilHealth</option>
+				<option>BIR</option>
+				<option>GSIS</option>
+				<option>PAG-IBIG</option>
+				<option>Loans</option>
+			</select>
+			<br>
+		<label>Overtime:</label>
+			<input type="text" name="">
+			<br>
+		<label>Bonus:</label>
+			<input type="text" name="">
+			<br>
+		<label>Net Pay:</label>
+			<input type="text" name="">
+		<a href="home_employee.html"><button onclick="myFunction()">Update</button>
+			<script>function myFunction() {
+			alert("Updated Succesfully!");
+			}
+			</script></a>
+		<a href="home_employee.html"><button type="button" id="account-button">Cancel</button></a>	
+	
+</form>
+</div>
+</body>
+</html>

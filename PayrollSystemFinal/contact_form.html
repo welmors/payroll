@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="css/contact_form.css">
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="container">
+      <h1><b><a href="index.html">Payroll Management System</a></b></h1>
+    </div>
+  </header>
+
+ <div class="container">
+    <nav id="navbar">
+      <ul>
+        <li><a href="home_employee.html">Employee</a></li>
+        <li><a href="home_deductions.html">Deduction/s</a></li>
+        <li><a href="home_salary.html">Income</a></li>
+        <li><a href="contact_form.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </div>
+  <br>
+
+  <form id="contact-form">
+    <label for="fname">First Name</label>
+    <input type="text">
+
+    <label for="lname">Last Name</label>
+    <input type="text">
+
+    <label for="email">Email</label>
+    <input type="text">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Philippines</option>
+    </select>
+
+    <label>Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+     <button onclick="myFunction()">Submit</button>
+        <script>function myFunction() {
+        alert("Message succesfully sent!");
+        }
+        </script>
+  </form>
+
+</body>
+</html>
